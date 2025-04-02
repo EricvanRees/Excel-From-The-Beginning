@@ -71,5 +71,59 @@ Show top 10% fields of a column:
 
 ## 4. Notes for Sales items project
 
+Formulas used in this lesson:
+1) Text to columns - split single column into separate columns (first name - last name)
+2) If 
+3) Sumif - pick items together based on self-defined criteria
+4) Sort - database command
+5) Filter - database command
+6) Pivot tables - summary of each sales person's sales
+7) Pie chart - charting the results
+
+**Text wrap function**
+Text wrap = "uitlijning" -> "terugloop"
+
+**Text to columns**
+Select row of choice, next click "Data" -> "Text to columns"
+
+Next, select delimiter (= divider) to split the column.
+
+**Quickly fill an entire row with data**
+Fill in the formula(s) to apply, then manually select all rows, next select "bewerken -> doorvoeren -> omlaag".
+
+**sumif**
+1) sum of items valued at more than $50
+"sumif" = "SOM.ALS" = SUM(range, critera) = sumif(f2:f172,">50") - This will sum items only if they're greater than 50.
+
+2) sum of items valued at $50 or less
+  "sumif(f2:f172, "<=50)"
+
+**sorting & filtering**
+
+1) sorting data
+First, select all rows and columns. Next, click:
+"Gegevens" -> "Sorteren en filteren", select column to sort on (letters or numbers).
+
+2) filtering data
+By clicking filter, all column headers will have a drop-down button. You can now select or filter on individual values.
+
+**Pivot table**
+First, select all rows and columns. Then, from the Insert tab, choose "Pivot table" ("Invoegen" -> "Draaitabel"). Click "OK".
+
+A new sheet opens, select the columns you want to include. Change the values in the columns by clicking the value field of "waarden" (rechtsonder in beeld) en dan "waardenveldinstellingen". 
+
+**Pie chart**
+Click "insert" -> "Pie chart" ("Invoegen" -> "Cirkel of ringdiagram invoegen"). Right-click the pie chart and choose "add data labels" for adding data to the pie chart.
+
+
+
+
+
+
+
+
+
+
+
 
  
