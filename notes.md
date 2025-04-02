@@ -1,6 +1,6 @@
 # Notes for "Excel from the Beginning" course
 
-**Notes for Payroll project**
+## 1. Notes for Payroll project
 
 Spread sheet cells have rows and numbers
 
@@ -40,6 +40,36 @@ Finds minimum value in range
 
   **How To Create a Header Row in Excel Using 3 Methods** [link](https://www.indeed.com/career-advice/career-development/how-to-create-header-row-in-excel) 
 
-**Notes for Payroll project**
-https://www.youtube.com/watch?v=Vl0H-qTclOg&t=3895s 
-39:45
+## 2. Notes for Gradebook project
+
+Use conditional formatting with "stijlen -> voorwaardelijke opmaak -> Pictogramseries"
+
+These have to be created by column, you cannot apply them for multiple rows and columns.
+
+**Conditional formatting**
+Only format cells with values less than 50%:
+
+Conditional formatting -> 
+"markeringsregels voor cellen -> kleiner dan"
+
+**OR formula**
+Combine a series of logical questions:
+Is the score for each field less than 50%?
+"=OF(H4<0.5;I4<0.5;J4<0.5;K4<0.5)"
+
+**Insert Bar Chart**
+
+Invoegen -> kolom- of staafdiagram
+
+Change data labels-> right-click the graph, choose "Gegevens selecteren". 
+
+## 3. Notes for Decision chart project
+
+Show top 10% fields of a column:
+
+"Stijlen" -> "voorwaardelijke opmaak" -> "Regels voor bovenste/onderste" -> "bovenste 10%"
+
+## 4. Notes for Sales items project
+
+
+ 
