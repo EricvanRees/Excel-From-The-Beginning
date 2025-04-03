@@ -115,6 +115,26 @@ A new sheet opens, select the columns you want to include. Change the values in 
 **Pie chart**
 Click "insert" -> "Pie chart" ("Invoegen" -> "Cirkel of ringdiagram invoegen"). Right-click the pie chart and choose "add data labels" for adding data to the pie chart.
 
+## 5. Car Inventory
+
+Lesson contents:
+1) Import text files into Excel
+2) Formulas to split cells = LEFT = MID = RIGHT
+3) VLOOKUP formula
+4) IF formula
+5) CONCATENATE formula
+6) Pivot tables
+7) Charts
+8) Copy results to a report in Microsoft
+
+Ad 1: import text file into Excel using "all file extensions", add delimiter of "," to separate data into separate rows.
+Ad 2: Split cell info into multiple cells using LEFT (Links), MID (Deel), and RIGHT (Rechts)
+Ad 3: VLOOKUP table. Create a VLOOKUP table using VLOOKUP formula (VERT.ZOEKEN()). Create a lookup table with abbreviations, their meaning, and sort it alphabetically otherwise it won't work. Use VERT.ZOEKEN with absolute cell references to add values from lookup table to empty cells (=VERT.ZOEKEN(B2;B$56:C$61;2))
+Ad 4. To calculate the age of a car, subtract Manufacture Year from Current Year (val). If Manufacture Year is before 2000, you need to use an IF formula to always get a positive value: "=ALS(25-F2<0;(100-F2)+25;25-F2)".
+Ad 5. Use the CONCATENATE function (TEKST.SAMENVOEGEN) to add the field names together:
+=TEKST.SAMENVOEGEN(B2;D2;F2;HOOFDLETTERS(LINKS(J2;3));RECHTS(A2;3)).
+Ad 6. Create a pivot table to calculate the sum of miles for each driver.
+Ad 7. Scatter plot 
 
 
 
